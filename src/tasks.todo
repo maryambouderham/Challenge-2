@@ -1,0 +1,9 @@
+Shopping cart features:
+ ☐ Afficher la liste des commandes(produits)
+ ☐ supprimer une commande
+ ☐ augmenter la quantite d'une commande
+ ☐ diminuer la quantité d'une commande
+ ☐ afficher le prix total
+ ☐ afficher le prix total inclut les frais shipping
+ ☐ afficher le prix total inclut le code promo
+ ☐ filter by title et category
