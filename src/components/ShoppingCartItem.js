@@ -11,25 +11,28 @@ const ShoppingCartItem = (props) => {
             <h6 className="fw-bold">{props.title}</h6>
           </div>
         </div>
-        <div className="d-flex align-items-center justify-content-center">
-          <button className="btn  m-1">
+        <div className="d-flex align-items-center ">
+          <button className="btn  m-1"
+          onClick={() =>props.OnClickSubstractQuantity(props.id)}>
             <span style={{ color: "Dodgerblue" }}>
               <i className="fas fa-minus" />
             </span>
           </button>
           <input
             type="number"
-            defaultValue={props.quantity}
+            Value={props.quantity}
             className="form-control w-25 m-1"
           />
-          <button className="btn m-1 fw-bold">
+          <button className="btn m-1 fw-bold"
+          onClick={() =>props.OnClickAddQuantity(props.id)
+          }>
             <span style={{ color: "Dodgerblue" }}>
               <i className="fal fa-plus" />
             </span>
           </button>
         </div>
         <div>
-          <span className="fw-bold">£{props.price}</span>
+          <span className="fw-bold">{props.price}$</span>
         </div>
         <div>
           <button

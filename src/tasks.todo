@@ -1,9 +1,9 @@
 Shopping cart features:
- ☐ Afficher la liste des commandes(produits)
- ☐ supprimer une commande
- ☐ augmenter la quantite d'une commande
- ☐ diminuer la quantité d'une commande
- ☐ afficher le prix total
- ☐ afficher le prix total inclut les frais shipping
- ☐ afficher le prix total inclut le code promo
- ☐ filter by title et category
+ ✔ Afficher la liste des commandes(produits) @started(21-09-28 15:46) @done(21-09-28 15:46) @lasted(13s)
+ ✔ supprimer une commande @started(21-09-28 15:46) @done(21-09-28 15:46) @lasted(20s)
+ ✔ augmenter la quantite d'une commande @started(21-09-29 11:38) @done(21-09-29 11:38) @lasted(57s)
+ ✔ diminuer la quantité d'une commande @started(21-09-29 11:39) @done(21-09-29 11:39) @lasted(5s)
+ ✔ afficher le prix total @done(21-09-29 11:39)
+ ✔ afficher le prix total inclut les frais shipping @done(21-09-29 12:09)
+ ✔ afficher le prix total inclut le code promo @done(21-09-29 12:09)
+ ✔ filter by title et category @done(21-09-29 12:13)
