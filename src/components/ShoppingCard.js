@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useRef } from "react";
 import { useEffect } from "react";
-import { FunctionComponent } from "react";
 import ShoppingCartList from "./ShoppingCartList";
 
 const ShoppingCard = () => {
@@ -84,6 +83,7 @@ const ShoppingCard = () => {
     setPrixHt(total)
     setPrixShip(total)
   },[]);
+  /*fonction event select shipping */
   const selectChange = (event) => {
    
     console.log(event.target.value)
@@ -94,6 +94,7 @@ const ShoppingCard = () => {
     setPrixShip(a)
     console.log(prixShip)
   };
+  /*fonction event select discount */
   const selectChange2 = (event) => {
     
     let a=prixShip - (prixShip * (parseInt(event.target.value))/100)
